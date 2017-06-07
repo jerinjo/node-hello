@@ -7,7 +7,7 @@ var options = { version: 2.2 };
 var context = new stackexchange(options);
 
 var filter = {
-  key: 'a8EnTxQopPrufO31sh6aKg((',
+  key: 'a8EnTxQopPrufO31sh6aKg((qq',
   pagesize: 50,
   tagged: 'node.js',
   sort: 'activity',
