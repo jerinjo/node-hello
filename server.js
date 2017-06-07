@@ -1,6 +1,18 @@
 var express = require("express"),
     app = express();
 
+var stackexchange = require('stackexchange');
+
+var options = { version: 2.2 };
+var context = new stackexchange(options);
+
+var filter = {
+  key: 'a8EnTxQopPrufO31sh6aKg((',
+  pagesize: 50,
+  tagged: 'node.js',
+  sort: 'activity',
+  order: 'asc'
+};
 
 var port = process.env.PORT || 8080;
 
